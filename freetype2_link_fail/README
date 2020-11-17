@@ -1,0 +1,6 @@
+Build on Windows with
+
+meson -Dfreetype2:png=enabled build
+ninja -C build freetype2_link_fail.exe
+
+It will fail to link as the import library is not generated

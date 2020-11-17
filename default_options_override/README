@@ -1,0 +1,6 @@
+Build with:
+
+meson -Ddefault_library=static build
+ninja -v -C build default_options_override
+
+The executable will link against the shared version of the library
